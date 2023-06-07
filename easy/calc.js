@@ -1,4 +1,4 @@
-// Character Code Math
+// Character Code
 // Turn each character in a string str into its ASCII character code and join them together to create a number.
 
 function calc(str) {

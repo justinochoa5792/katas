@@ -1,0 +1,11 @@
+# find_short
+# Simple, given a string of words, return the length of the shortest word(s).
+# String will never be empty and you do not need to account for different data types.
+
+def find_short(s):
+    # your code here
+    splitWord = s.split(' ')
+    arr = []
+    for word in splitWord:
+         arr.append(len(word))
+    return sorted(arr)[0]
